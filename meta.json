@@ -1,0 +1,38 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "项目名称",
+      "default": "A GVT Frontend Project"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "项目描述",
+      "default": "Based On Vuejs"
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "label": "作者",
+      "default": "Frontend Developers For GVT"
+    },
+    "license": {
+      "type": "string",
+      "label": "License",
+      "default": "MIT"
+    },
+    "less": {
+      "type": "confirm",
+      "message": "使用 Less ?",
+      "default": true
+    },
+    "sass": {
+       "type": "confirm",
+       "message": "使用 sass ?",
+       "default": false
+    }
+  },
+  "completeMessage": "{{#inPlace}}To get started:\n\n  npm install\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev{{/inPlace}}"
+}
