@@ -5,6 +5,6 @@
 </template>
 
 <script>
-import './main.less'
+import './main.css'
 export default {};
 </script>
